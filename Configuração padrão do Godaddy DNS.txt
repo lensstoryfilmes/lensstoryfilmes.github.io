@@ -1,0 +1,13 @@
+Set up my user page arsturges.github.io
+Commit a file called CNAME with one line: andrewsturges.com
+Go to GoDaddy site to manage my URL
+Add an "A (Host)" record with "host" = @ and "Points to" = 192.30.252.153
+Add a "CNAME (Alias)" record with "host" = www and "Points to" = arsturges.github.io
+Wait for changes to propogate.
+
+https://github.com/lensstoryfilmes/lensstoryfilmes.github.io.git
+
+
+
+
+goDaddy padrão A (Host) =  @           184.168.221.46

@@ -107,7 +107,7 @@ BRUSHED.nav = function(){
 ================================================== */
 
 BRUSHED.filter = function (){
-	if($('#projects').length > 0){		
+	if($('#projects').length >= 0){		
 		var $container = $('#projects');
 		
 		$container.isotope({

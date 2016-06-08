@@ -81,7 +81,7 @@ BRUSHED.slider = function(){
 											{image : 'include/img/slider-images/image02.jpg', title : '<div class="slide-content">Lens Story Filmes</div>', thumb : '', url : ''},
 											{image : 'include/img/slider-images/image03.jpg', title : '<div class="slide-content">Lens Story Filmes</div>', thumb : '', url : ''},
 											{image : 'include/img/slider-images/image04.jpg', title : '<div class="slide-content">Lens Story Filmes</div>', thumb : '', url : ''},
-											{image : 'include/img/slider-images/image04.jpg', title : '<div class="slide-content">Lens Story Filmes</div>', thumb : '', url : ''}    
+											
 									],
 									
 		// Theme Options			   

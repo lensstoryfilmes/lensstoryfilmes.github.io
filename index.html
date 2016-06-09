@@ -124,7 +124,7 @@
                 <li><a href="#work">Nossos Trabalhos</a></li>
                 <li><a href="#about">Sobre Nós</a></li>
                 <li><a href="#contact">Contato</a></li>
-				<li><a href="shortcodes.html" class="external">Shortcodes</a></li>
+				<!-- <li><a href="shortcodes.html" class="external">Shortcodes</a></li> -->
             </ul>
         </nav>
         
@@ -140,7 +140,7 @@
             <div class="span12">
                 <div class="title-page">
                     <h2 class="title">Nossos Trabalhos</h2>
-                    <h3 class="title-description">Check Out Our Projects on <a href="#">Dribbble</a>.</h3>
+                     <!-- <h3 class="title-description">Check Out Our Projects on <a href="#">Dribbble</a>.</h3> -->
                 </div>
             </div>
         </div>
@@ -348,19 +348,24 @@
     <!-- Contato Form -->
     <div class="row">
     	<div class="span9">
-        
-        	<form id="contact-form" class="contact-form" action="#">
+
+        <form action="//lensstoryfilmes.us13.list-manage.com/subscribe/post?u=6d204328a8563758905bb0e94&amp;id=f3609cceb3" method="post" id="contact-form" name="mc-embedded-subscribe-form" 
+        class="contact-form" target="_blank" novalidate>
+
+        <!-- <form id="contact-form" class="contact-form" action="#"> -->
+        	
             	<p class="contact-name">
-            		<input id="contact_name" type="text" placeholder="Nome Completo" value="" name="name" />
+            		<input id="mce-NAMEALL" type="text" placeholder="Nome Completo" class="required" value="" name="NAMEALL" />
                 </p>
                 <p class="contact-email">
-                	<input id="contact_email" type="text" placeholder="Endereço de Email" value="" name="email" />
+                	<input id="mce-EMAIL" type="email" placeholder="Endereço de Email" value="" name="EMAIL" />
                 </p>
                 <p class="contact-message">
-                	<textarea id="contact_message" placeholder="Mensagem" name="message" rows="15" cols="40"></textarea>
+                	<input id="mce-MESSAGE" type="text" placeholder="Mensagem" name="MESSAGE" rows="15" cols="40" class="required"/>
                 </p>
                 <p class="contact-submit">
-                	<a id="contact-submit" class="submit" href="#">Envie seu e-mail</a>
+                	 <!-- <a id="contact-submit" class="submit" href="#">Envie seu e-mail</a> -->
+                    <input type="submit" value="Enviar" name="subscribe" id="mc-embedded-subscribe" class="submit">
                 </p>
                 
                 <div id="response">
@@ -374,8 +379,12 @@
         	<div class="contact-details">
         		<h3>Detalhes do Contato</h3>
                 <ul>
-                    <li><a href="#">atendimento@lensstoryfilmes.com</a></li>
+                    <li>Pato Branco - PR</li>
+                    <li>Horário: Segunda a Sexta: 09h - 17h</li>
                     <li>(46) 9126-4340</li>
+                    <li><a href="#">atendimento@lensstoryfilmes.com</a></li>
+                    
+                    
                     <!-- <li>
                         Brushed Studio
                         <br>
@@ -453,6 +462,7 @@
 
 
 <!-- Js -->
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='NAMEALL';ftypes[1]='text';fnames[3]='MESSAGE';ftypes[3]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
 <script src="include/js/bootstrap.min.js"></script> <!-- Bootstrap -->
 <script src="include/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
